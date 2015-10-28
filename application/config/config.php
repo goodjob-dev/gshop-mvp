@@ -517,7 +517,7 @@ $config['assets'] =
 	[
 		'css' => 
 		[
-		
+			
 		],
 		'js'  => 
 		[
@@ -529,11 +529,15 @@ $config['assets'] =
 	[
 		'css' => 
 		[
-		
+			'bootstrap',
+			'style'
 		],
 		'js'  => 
 		[
-			
+			'jquery',
+			'bootstrap',
+			'jquery.easing',
+			'app'
 		]
 	]
 ];

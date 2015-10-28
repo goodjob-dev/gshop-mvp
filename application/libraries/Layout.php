@@ -43,6 +43,8 @@ class Layout
 		
 		/**
 		 * Get layout components
+		 * 
+		 * For example login pages or landing doesn't need layout
 		*/
 		if( $layout )
 		{
