@@ -12,6 +12,19 @@ body
 	padding-top: 60px;
 	font-family: am-font;
 }
+input, button
+{
+	outline: none !important;
+}
+.body-font 
+{
+	font-family: am-font;
+}
+.orange 
+{
+	color:#f8a630;
+}
+
 .navbar-brand 
 {
 	padding: 1px 0px 0px 25px;
@@ -41,6 +54,7 @@ body
 .page-scroll li a:focus 
 {
 	color: #ffffff !important;
+	background-color: #f8a630 !important;
 }
 .navbar-toggle
 {
@@ -59,4 +73,46 @@ body
 {
 	width: 100%;
 	height: 100%;
+}
+.heading 
+{
+	font-size: 18px;
+}
+.order-description
+{
+	font-size: 12px;
+	margin-top: 20px;
+}
+.top-logo img 
+{
+	max-width: 400px;
+    width: 100%;
+}
+.vertical-center 
+{
+	margin-top: 4%;
+}
+.top-description p
+{
+	margin-top: 40px;
+}
+.get-notified 
+{
+	margin-top: 10px;
+}
+.order-now
+{
+	margin-top: 45px;
+}
+.top-margin 
+{
+	margin-top: 5px;
+}
+.answer
+{
+	font-size: 14.75px;
+	text-align: left;
+	margin-left: 30px;
+	margin-top: 20px;
+	line-height: 30px; 
 }

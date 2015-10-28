@@ -9,19 +9,33 @@ $(function()
 	/**
 	 * Initialize landing page navigation
 	*/
-	$('.navbar-brand, .page-scroll a').bind('click', landingNav);
+	$('.in-page-link, .page-scroll a').bind('click', landingNav);
+
+	$('.know-more').click(knowMore);
 	
+	function knowMore( evt )
+	{
+		$('#order-modal').modal('hide');
+
+		linkTo( $(this).attr('href') );
+	}
+
 	function landingNav(evt)
 	{
 		evt.preventDefault();
 		
-		var scrollTop = $( $(this).attr('href') ).offset().top;
-		
+		linkTo( $(this).attr('href') );
+	}
+
+	function linkTo( href )
+	{
+		var top = $( href ).offset().top - 60;
+
 		$('html, body').stop().animate(
 			{
-				scrollTop: scrollTop
+				scrollTop: top
 			}, 
-			1500, 
+			1000, 
 			'easeInOutExpo'
 		);
 	}
