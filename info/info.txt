@@ -1,4 +1,0 @@
-1 if is logged in 
-	render my pack
-2 else 
-	render landing

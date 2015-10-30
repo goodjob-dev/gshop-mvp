@@ -16,6 +16,11 @@ input, button
 {
 	outline: none !important;
 }
+hr 
+{
+	margin-bottom: 0px;
+	border-top: 1px solid #f8a630;
+}
 .body-font 
 {
 	font-family: am-font;
@@ -24,7 +29,31 @@ input, button
 {
 	color:#f8a630;
 }
+.vertical-margin 
+{
+	margin-top: 45px;
+}
+.top-margin 
+{
+	margin-top: 5px;
+}
+.no-padding
+{
+	padding: 0;
+}
+.heading 
+{
+	font-size: 18px;
+}
 
+
+
+
+
+
+/**
+ * Navbar css
+*/
 .navbar-brand 
 {
 	padding: 1px 0px 0px 25px;
@@ -68,51 +97,146 @@ input, button
 /*
  * Main section css
 */
+.main-section
+{
+	position: relative;
+}
 
-.page-block 
-{
-	width: 100%;
-	height: 100%;
-}
-.heading 
-{
-	font-size: 18px;
-}
-.order-description
-{
-	font-size: 12px;
-	margin-top: 20px;
-}
 .top-logo img 
 {
 	max-width: 400px;
     width: 100%;
 }
-.vertical-center 
+
+.arrow-down 
 {
-	margin-top: 4%;
+	position: absolute;
+	bottom: 20px;
+	left: 50%;
+	margin-left: -25px;
 }
-.top-description p
+
+.arrow-down img 
 {
-	margin-top: 40px;
+	width: 50px;
+	cursor: pointer;
 }
-.get-notified 
+
+
+/**
+ * About us section css
+*/
+
+.stat:nth-child(1)
 {
-	margin-top: 10px;
+	padding-left: 0;
 }
-.order-now
+.stat 
 {
-	margin-top: 45px;
+	font-size: 20px;
+	padding-top: 30px;
+	border-top: 1px solid #f8a630;
 }
-.top-margin 
+.stat .number 
 {
-	margin-top: 5px;
+	font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 24px;
 }
 .answer
 {
 	font-size: 14.75px;
-	text-align: left;
-	margin-left: 30px;
 	margin-top: 20px;
 	line-height: 30px; 
+}
+
+
+/**
+ * Feedbacks section css
+ *
+*/
+
+.feedback .content .author
+{
+	margin-top: 20px;
+}
+
+.feedback .image img 
+{
+	width: 100%;
+	max-width: 190px;
+	border-radius: 50%;
+    border: 3px solid #cfcfcf;
+}
+
+
+/**
+ * Footer css
+*/
+
+footer 
+{
+	color: #ffffff;
+	background-color: #f8a630;
+	padding: 15px;
+	line-height: 25px;
+}
+
+
+/**
+ * Order modal css
+*/
+
+.phone-submit
+{
+	width: 100%;
+	margin-top: 10px;	
+}
+
+
+/**
+ * Call to action css
+*/
+
+.order-row p
+{
+	margin-bottom: 24px;
+    font-size: 18px;
+}
+
+/**
+ * Media queries
+*/
+
+@media screen and (max-width: 767px) 
+{
+	.feedback .content 
+	{
+		margin-top: 30px;
+	}
+	.scale-font
+	{
+		font-size: 37px;
+	}
+	.main-section .order-now 
+	{
+		margin-bottom: 20px;
+	}
+	.stat 
+	{
+		padding-bottom: 30px;
+	}
+	.arrow-down 
+	{
+		display: none;
+	}
+}
+
+@media screen and (min-width: 767px)
+{
+	.page-block 
+	{
+		min-width: 100%;
+		min-height: 100%; 
+	}
 }
