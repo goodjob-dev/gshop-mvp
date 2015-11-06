@@ -1,2 +1,0 @@
-background - #de9eac
-text	   - #ffffff
