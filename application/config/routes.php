@@ -58,6 +58,8 @@ $route =
 	
 	'404_override'		   => 'HomeController',
 	
+	'order'				   => 'OrderController/index',
+	
 	'translate_uri_dashes' => FALSE
 
 ];

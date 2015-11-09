@@ -107,6 +107,15 @@
 				</p>
 			</div>
 			
+			<div class="row text-left">
+				<h3 class="body-font">
+					Մոռացեք տնտեսական ապրանքների մասին !!!
+				</h3>
+				<p class="answer">
+					Դուք այլևս կարիք չունեք, ձեր ժամանակը ծախսել խանութներում կամ մտածել օնլայն գնում կատարելու մասին։ Մենք գիտենք, թե Ձեզ ինչ է պետք․ ընդհամենը զանգահարեք և ստացեք Ձեր փաթեթը։ Այդքանը ։)
+				</p>
+			</div>
+			
 			<div class="row vertical-margin text-center">
 				
 				<div class="col-sm-4 stat">
@@ -116,12 +125,12 @@
 				
 				<div class="col-sm-4 stat">
 					<div class="number">1000+</div>
-					<div class="title">Պատվեր ամսեկան</div>
+					<div class="title">Զանգ մեկ շաբաթում</div>
 				</div>
 				
 				<div class="col-sm-4 stat">
-					<div class="number">100+</div>
-					<div class="title">Ամսական գրանցվող օգտատեր</div>
+					<div class="number">50000+</div>
+					<div class="title">Պատվեր մեր գործունեության ընթացքում</div>
 				</div>
 				
 			</div>
@@ -176,9 +185,12 @@
 					
 					<div class="text">
 						
+						Ես ուղղակի մոռացել եմ խանութ գնալու մասին։ Ընդհամենը մեկ զանգով ստանում եմ իմ փաթեթը ճշգրիտ ժամանակին առանց որևէ 
+
+						դժվարության։
 					</div>
 					<div class="author">
-						<em>Արթուր Խլղաթյան</em>
+						<em>Արթուր Հակոբյան</em>
 					</div>
 					
 				</div>
@@ -194,10 +206,12 @@
 				<div class="content col-sm-9 text-left">
 					
 					<div class="text">
-						
+						Այլևս կարիք չկա ժամանակ ծախսել ամեն անգամ իմ զամբյուղը հավաքելու վրա։ Նրանք գիտեն, թե ինձ ինչ է պետք և դա ամենից շատն է ինձ 
+
+						դուր գալիս ։)	
 					</div>
 					<div class="author">
-						<em>Արթուր Խլղաթյան</em>
+						<em>Գրիգոր Դանիելյան</em>
 					</div>
 					
 				</div>
@@ -213,10 +227,10 @@
 				<div class="content col-sm-9 text-left">
 					
 					<div class="text">
-						
+						Նրանց բարեհամբույր աշխատողները միշտ մտնում են իմ վիճակի մեջ։ Երբեմն կարիք եմ ունենում փաթեթս ստանալ երեկոյան կամ իմ նախընտրած ժամանակին։ Հոգ չէ, նրանք միշտ պատրաստ են !!!
 					</div>
 					<div class="author">
-						<em>Արթուր Խլղաթյան</em>
+						<em>Էդիտա Ղազարյան</em>
 					</div>
 					
 				</div>
@@ -268,14 +282,14 @@
 			<div class="modal-body">
 			
 				<p class="order-info">
-					* Մենք կկապնվենք ձեզ հետ 5 րոպեի ընթացում, այլապես ձեր առաքումը կլինի <u class="orange">անվճար</u>։
+					* Մենք կկապնվենք ձեզ հետ 5 րոպեի ընթացքում, այլապես ձեր առաքումը կլինի <u class="orange">անվճար</u>։
 				</p>
 			
 				<form action="" method="POST">
 					<div class="form-horizontal">
 						<div class="form-group">
 							<div class="col-lg-12">
-								<input type="text" class="form-control" placeholder="Ձեր հեռախոսահամարը։" />
+								<input type="text" class="form-control phone-number" placeholder="Ձեր հեռախոսահամարը։" />
 								<input type="button" class="btn btn-success phone-submit" value="Պատվիրել" />
 							</div>
 						</div>
@@ -290,4 +304,6 @@
 		</div>
 	</div>
 </div>
+
+
 
