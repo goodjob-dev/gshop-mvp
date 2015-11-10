@@ -60,6 +60,8 @@ $route =
 	
 	'order'				   => 'OrderController/index',
 	
+	'track'	   			   => 'TrackingController/index/', 
+	
 	'translate_uri_dashes' => FALSE
 
 ];

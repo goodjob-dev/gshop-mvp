@@ -10,6 +10,8 @@ $(function(w){
 			'target': '.navbar'
 		});
 		
+		(new Tracker).start();
+		
 		startApp();
 	},
 	
@@ -44,9 +46,16 @@ $(function(w){
 		
 			data	= { number: number },
 			
-			success = function(evt)
+			success = function(response)
 			{
-				
+				if( response )
+				{
+					alert('Sent!!!');
+				}
+				else 
+				{
+					alert('Error sending your e-mail');
+				}
 			};
 		
 		$.post( url, data, success );
@@ -77,6 +86,35 @@ $(function(w){
 	};
 	
 	
+	
+	var Tracker = function()
+	{
+		var self = this;
+		
+		self.start = function()
+		{
+			$('.track-object').on('click', track);
+		};
+		
+		var track = function( evt )
+		{
+			var track_id = $(this).data('track'),
+			
+				url		 = '/track',
+				
+				data	 = 
+				{
+					track_id: track_id
+				};
+				
+			$.post( url, data );
+		};
+	};
+	
+	
+	
+	
 	init();
 	
 });
+

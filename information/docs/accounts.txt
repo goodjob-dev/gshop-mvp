@@ -1,0 +1,10 @@
+Gmail
+
+	username - gshop.arm@gmail.com
+
+	password - gshop2015
+	
+Host 
+
+	domain   - gshop.hol.es
+	password - Qoi5cr+HdV66+H!4MD

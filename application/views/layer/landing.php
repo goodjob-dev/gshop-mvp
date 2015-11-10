@@ -240,7 +240,7 @@
 			
 			<div class="row order-row vertical-margin">
 				<p>
-					<button data-toggle="modal" data-target="#order-modal" class="btn btn-success vertical-margin order-now">
+					<button data-toggle="modal" data-track="1" data-target="#order-modal" class="btn btn-success vertical-margin order-now track-object">
 						Պատվիրեք հիմա
 					</button>
 				</p>	
@@ -282,7 +282,7 @@
 			<div class="modal-body">
 			
 				<p class="order-info">
-					* Մենք կկապնվենք ձեզ հետ 5 րոպեի ընթացքում, այլապես ձեր առաքումը կլինի <u class="orange">անվճար</u>։
+					* Մենք կկապնվենք Ձեզ հետ 5 րոպեի ընթացքում, այլապես Ձեր առաքումը կլինի <u class="orange">անվճար</u>։
 				</p>
 			
 				<form action="" method="POST">
